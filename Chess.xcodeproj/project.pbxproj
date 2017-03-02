@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C77EF9A11E67218600880E27 /* Bishop.png in Resources */ = {isa = PBXBuildFile; fileRef = C77EF99B1E67218600880E27 /* Bishop.png */; };
+		C77EF9A21E67218600880E27 /* KingYellow.png in Resources */ = {isa = PBXBuildFile; fileRef = C77EF99C1E67218600880E27 /* KingYellow.png */; };
+		C77EF9A31E67218600880E27 /* Knight.png in Resources */ = {isa = PBXBuildFile; fileRef = C77EF99D1E67218600880E27 /* Knight.png */; };
+		C77EF9A41E67218600880E27 /* Pawn.png in Resources */ = {isa = PBXBuildFile; fileRef = C77EF99E1E67218600880E27 /* Pawn.png */; };
+		C77EF9A51E67218600880E27 /* Queen.png in Resources */ = {isa = PBXBuildFile; fileRef = C77EF99F1E67218600880E27 /* Queen.png */; };
+		C77EF9A61E67218600880E27 /* Rook.png in Resources */ = {isa = PBXBuildFile; fileRef = C77EF9A01E67218600880E27 /* Rook.png */; };
 		C7DF27A71E66B3A30039F9B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF27A61E66B3A30039F9B4 /* AppDelegate.swift */; };
 		C7DF27A91E66B3A30039F9B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF27A81E66B3A30039F9B4 /* ViewController.swift */; };
 		C7DF27AC1E66B3A30039F9B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DF27AA1E66B3A30039F9B4 /* Main.storyboard */; };
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C77EF99B1E67218600880E27 /* Bishop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bishop.png; sourceTree = "<group>"; };
+		C77EF99C1E67218600880E27 /* KingYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KingYellow.png; sourceTree = "<group>"; };
+		C77EF99D1E67218600880E27 /* Knight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Knight.png; sourceTree = "<group>"; };
+		C77EF99E1E67218600880E27 /* Pawn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pawn.png; sourceTree = "<group>"; };
+		C77EF99F1E67218600880E27 /* Queen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Queen.png; sourceTree = "<group>"; };
+		C77EF9A01E67218600880E27 /* Rook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rook.png; sourceTree = "<group>"; };
 		C7DF27A31E66B3A30039F9B4 /* Chess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DF27A61E66B3A30039F9B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7DF27A81E66B3A30039F9B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +86,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C77EF99A1E67217200880E27 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C77EF99B1E67218600880E27 /* Bishop.png */,
+				C77EF99C1E67218600880E27 /* KingYellow.png */,
+				C77EF99D1E67218600880E27 /* Knight.png */,
+				C77EF99E1E67218600880E27 /* Pawn.png */,
+				C77EF99F1E67218600880E27 /* Queen.png */,
+				C77EF9A01E67218600880E27 /* Rook.png */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
 		C7DF279A1E66B3A30039F9B4 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +122,7 @@
 		C7DF27A51E66B3A30039F9B4 /* Chess */ = {
 			isa = PBXGroup;
 			children = (
+				C77EF99A1E67217200880E27 /* Source */,
 				C7DF27A61E66B3A30039F9B4 /* AppDelegate.swift */,
 				C7DF27A81E66B3A30039F9B4 /* ViewController.swift */,
 				C7DF27AA1E66B3A30039F9B4 /* Main.storyboard */,
@@ -193,6 +219,7 @@
 				TargetAttributes = {
 					C7DF27A21E66B3A30039F9B4 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7MRXJH2RYW;
 						ProvisioningStyle = Automatic;
 					};
 					C7DF27B61E66B3A30039F9B4 = {
@@ -232,8 +259,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C77EF9A61E67218600880E27 /* Rook.png in Resources */,
+				C77EF9A41E67218600880E27 /* Pawn.png in Resources */,
 				C7DF27B11E66B3A30039F9B4 /* LaunchScreen.storyboard in Resources */,
+				C77EF9A51E67218600880E27 /* Queen.png in Resources */,
 				C7DF27AE1E66B3A30039F9B4 /* Assets.xcassets in Resources */,
+				C77EF9A31E67218600880E27 /* Knight.png in Resources */,
+				C77EF9A11E67218600880E27 /* Bishop.png in Resources */,
+				C77EF9A21E67218600880E27 /* KingYellow.png in Resources */,
 				C7DF27AC1E66B3A30039F9B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,7 +445,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7MRXJH2RYW;
 				INFOPLIST_FILE = Chess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.ttung.Chess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +459,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7MRXJH2RYW;
 				INFOPLIST_FILE = Chess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.ttung.Chess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +542,7 @@
 				C7DF27CD1E66B3A30039F9B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7DF27CE1E66B3A30039F9B4 /* Build configuration list for PBXNativeTarget "ChessTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +551,7 @@
 				C7DF27D01E66B3A30039F9B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7DF27D11E66B3A30039F9B4 /* Build configuration list for PBXNativeTarget "ChessUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +560,7 @@
 				C7DF27D31E66B3A30039F9B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
